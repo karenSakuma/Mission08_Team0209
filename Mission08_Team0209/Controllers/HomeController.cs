@@ -8,7 +8,8 @@ public class HomeController : Controller
 {
 
     //create private context instance here
-    public HomeController()
+    
+    public HomeController() //constructor with temp variable
     {
         
     }
@@ -17,5 +18,11 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    /*[HttpGet]
+     show the view where users can add a task to the database*/
+    
+    /*[HttpPost]
+     show the new task that was added to the database*/
     
 }
